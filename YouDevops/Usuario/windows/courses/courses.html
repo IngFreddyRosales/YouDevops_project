@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../courses/courses-css/courses.css">
+    <script src="https://kit.fontawesome.com/73923889d5.js" crossorigin="anonymous"></script>
+    <script src="courses.js"  defer></script>
+    <title>Cursos</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../courses/courses.html" class="return_index">
+                <i class="fas fa-cube fa-lg"></i>
+                <span>YouDevOps</span>
+            </a>
+        </div>
+        <div id="usuario">
+            <a href="../../../Usuario/windows/index.html"><button type="button" id="usuario_button" >Log out</button></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="Title">
+            <h1>Cursos</h1>
+        </div>
+
+        <section id="coursesSection">
+
+            </div>
+        </section>
+    </main>
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var courses = document.querySelectorAll(".course");
+        courses.forEach(function(course) {
+            course.addEventListener("click", function() {
+                var infoCourse = this.querySelector(".information_course");
+                infoCourse.classList.toggle("active");
+            });
+        });
+    });
+</script>
+
+</html>

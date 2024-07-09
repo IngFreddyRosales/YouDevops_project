@@ -1,0 +1,130 @@
+2024-06-24T06:24:46.445Z error: Error al obtener usuarios: id is not defined
+2024-06-24T06:24:53.303Z error: Error al obtener usuarios: id is not defined
+2024-06-24T06:25:51.290Z error: Error al obtener usuarios: la sintaxis de entrada no es válida para tipo integer: «{"id":1,"nombre":"Freddy","apellido":"Espinosa","correo":"Freddy@gmail.com","contrasenia":"freddy123"}»
+2024-06-24T06:26:26.480Z error: Error al obtener usuarios: la sintaxis de entrada no es válida para tipo integer: «{"id":1,"nombre":"Freddy","apellido":"Espinosa","correo":"Freddy@gmail.com","contrasenia":"freddy123"}»
+2024-06-24T10:13:56.776Z error: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-06-24T10:16:02.539Z error: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-06-24T10:19:46.078Z error: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-06-24T10:21:56.092Z error: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-06-24T10:23:00.650Z error: Query values must be an array
+2024-06-24T10:25:21.220Z error: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-06-26T11:31:31.724Z error: Error al obtener usuarios: getUsers is not defined
+2024-06-27T04:50:10.556Z error: User with email freds not found
+2024-06-27T04:51:09.125Z error: User with email asdas not found
+2024-06-27T04:52:20.633Z error: User with email asdas not found
+2024-06-29T08:21:15.133Z error: User with email alexandro not found
+2024-06-29T10:32:09.705Z error: User with email Alfredo not found
+2024-06-29T10:39:11.156Z error: User with email Alfredo not found
+2024-06-29T10:39:21.908Z error: User with email Alfredo not found
+2024-07-01T00:00:27.948Z error: User with email Freddy not found
+2024-07-01T00:00:29.986Z error: User with email Freddy not found
+2024-07-01T00:00:33.224Z error: User with email Freddy not found
+2024-07-01T00:00:33.615Z error: User with email Freddy not found
+2024-07-01T00:00:33.831Z error: User with email Freddy not found
+2024-07-01T00:00:34.056Z error: User with email Freddy not found
+2024-07-01T00:00:49.356Z error: User with email Freddy not found
+2024-07-01T10:34:14.585Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\uploads\image-1719830054575-241774596.png'
+2024-07-01T10:42:35.829Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\uploads\image-1719830555821-451503233.png'
+2024-07-01T10:51:00.240Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831060232-267657684.png'
+2024-07-01T10:54:22.655Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831262651-629129542.png'
+2024-07-01T10:55:16.916Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831316913-455823207.png'
+2024-07-01T10:59:21.796Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831561789-391163195.png'
+2024-07-01T10:59:42.137Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831582132-881699213.png'
+2024-07-01T11:00:03.715Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831603709-981737161.png'
+2024-07-01T11:01:26.645Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831686634-723893126.png'
+2024-07-01T11:03:17.545Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831797535-410488578.png'
+2024-07-01T11:05:08.709Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831908705-994507973.png'
+2024-07-01T11:15:59.797Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\uploads\image-1719832559791-43158501.png'
+2024-07-02T07:51:30.267Z error: User with email Freddy not found
+2024-07-02T08:18:31.152Z error: The "path" argument must be of type string. Received undefined
+2024-07-02T08:45:11.790Z error: coursesWithImagesUrls is not defined
+2024-07-02T09:07:00.747Z error: User with email Freddy not found
+2024-07-03T02:55:20.455Z error: Admin with email Freddy  not found
+2024-07-03T02:55:27.305Z error: Admin with email Freddy  not found
+2024-07-03T02:55:34.315Z error: Admin with email Freddy  not found
+2024-07-03T02:55:43.215Z error: Admin with email Freddy  not found
+2024-07-03T05:32:47.353Z error: no existe la relación «lecciones»
+2024-07-03T05:33:13.106Z error: no existe la columna «cursos_id» en la relación «leccion»
+2024-07-03T05:33:51.518Z error: no existe la columna «cursos_id» en la relación «leccion»
+2024-07-03T05:34:11.759Z error: no existe la columna «urlvideo» en la relación «leccion»
+2024-07-03T11:58:05.378Z error: Admin with email Freddy not found
+2024-07-03T11:58:11.319Z error: Admin with email Freddy not found
+2024-07-03T11:58:21.132Z error: Admin with email Freddy not found
+2024-07-03T21:22:31.717Z error: User with email Luis  not found
+2024-07-03T21:22:43.029Z error: User with email Luis  not found
+2024-07-03T23:10:05.338Z error: Admin with email Alfreddo not found
+2024-07-04T12:50:10.004Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T12:50:10.006Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T12:50:15.112Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T12:50:15.114Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T12:50:17.922Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T12:50:17.923Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T12:50:45.855Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T12:50:45.860Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:00:29.024Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:00:29.040Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:01:14.913Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:01:14.919Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:01:21.364Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:01:21.366Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:01:33.960Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:01:33.961Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:01:36.810Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:01:36.812Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:01:47.999Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:01:48.000Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:01:50.507Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:01:50.507Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:19:34.315Z error: el valor es demasiado largo para el tipo character varying(100)
+2024-07-04T13:19:58.551Z error: el valor es demasiado largo para el tipo character varying(100)
+2024-07-04T13:20:31.379Z error: el valor es demasiado largo para el tipo character varying(100)
+2024-07-04T13:21:00.232Z error: el valor es demasiado largo para el tipo character varying(200)
+2024-07-04T13:22:50.377Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:44.090Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:45.837Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:46.386Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:46.586Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:46.789Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:47.008Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:49.634Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:49.904Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:50.158Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:50.468Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:50.701Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:24:43.030Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-05T00:13:25.286Z error: User with email Fernanda not found
+2024-07-05T00:16:13.909Z error: User with email Freddy not found
+2024-07-05T03:24:21.401Z error: Admin with email Freddy  not found
+2024-07-05T08:11:10.840Z error: titulo is not defined
+2024-07-05T08:12:41.285Z error: titulo is not defined
+2024-07-05T08:13:14.533Z error: titulo is not defined
+2024-07-05T08:17:34.097Z error: Cannot read properties of undefined (reading 'rutaImagen')
+2024-07-05T08:33:05.618Z error: Cannot access 'updateCourse' before initialization
+2024-07-05T08:33:41.342Z error: Cannot access 'updateCourse' before initialization
+2024-07-05T11:42:30.698Z error: User with email Freddy not found
+2024-07-05T11:42:46.942Z error: User with email Freddy not found
+2024-07-05T11:42:57.140Z error: User with email Freddy not found
+2024-07-05T11:46:42.003Z error: Admin with email Luis not found
+2024-07-05T23:04:09.955Z error: User with email Freddy not found
+2024-07-06T00:34:25.534Z error: el valor es demasiado largo para el tipo character varying(50)
+2024-07-06T00:34:48.108Z error: el valor es demasiado largo para el tipo character varying(50)
+2024-07-06T04:14:44.423Z error: User with email  not found
+2024-07-06T04:14:56.309Z error: User with email dsfsdfs not found
+2024-07-06T04:17:38.754Z error: User with email luis not found
+2024-07-06T04:18:02.290Z error: User with email Jose not found
+2024-07-06T04:19:00.214Z error: User with email Jose not found

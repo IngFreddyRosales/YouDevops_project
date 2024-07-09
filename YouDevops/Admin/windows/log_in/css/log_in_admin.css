@@ -1,0 +1,210 @@
+html , body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    height: 60px;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.8em;
+}
+
+.return_index{
+    color: #f1c232;
+    text-decoration: none;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.form_log_in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 20%;
+    padding: 20px;
+    margin-top: 70px;
+    background-color: #121212;
+}
+
+.form_log_in h1{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.label{
+    width: max-content;
+    margin: 20px auto;
+    display: grid;
+    grid-template-areas: "input";
+    background-color: #121212;
+}
+
+.input{
+    grid-area: input;
+    width: 200px;
+    font: inherit;
+    border-radius: 10px;
+    border: 1px solid #f1c232;
+    padding: .7rem 1.5rem;
+    background-color: #121212;
+    color: #f5f5f5;
+    
+}
+
+.label_name{
+    grid-area: input;
+    z-index: 100;
+    width: max-content;
+    margin-left: 1rem;
+    padding: 0 .5rem;
+    align-self: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    transition: transform .2s;
+    transform-origin: center left;
+}
+
+.input:focus + .label_name,
+.input:not(:placeholder-shown) + .label_name{
+    transform: translateY(-50%) scale(.7);
+    background-color: #121212;
+    
+}
+
+button.button{
+    width: 250px;
+    height: 50px;
+    background-color: #f1c232;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    transition: 0.5s ease;
+}
+
+button.button#usuario {
+    margin-top: 0;
+    width: 150px;
+    height: 40px;
+  }
+  
+button.button:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #121212;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright{
+    color: #ffffffdd;
+    margin-left: 50px;
+}
+
+.social_medias{
+    margin-right: 50px;
+}
+
+.social_medias a{
+    color: #f5f5f514;
+    margin-left: 15px;
+}
+
+a.forgot_password {
+    color: #f1c232;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+
+a.forgot_password:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){    
+    header{
+        justify-content: center;
+    }
+    
+    .form_log_in{
+        width: 80%;
+    }
+
+    footer{
+        flex-direction: column;
+        position: absolute;
+        bottom: 0;
+    }
+    .copyright{
+        margin-left: 0px;
+    }
+    .social_medias{
+        margin-right: 0px;
+    }
+}
+
+/* Responsive design for tablet */
+@media (min-width: 768px) and (max-width: 1276px){
+
+
+    header{
+        justify-content: center;
+    }
+    
+    .form_log_in{
+        width: 40%;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+    .copyright{
+        margin-left: 0px;
+    }
+    .social_medias{
+        margin-right: 0px;
+    }
+}

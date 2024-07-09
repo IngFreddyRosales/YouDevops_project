@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../guest_view/guest_view.css">
+    <script src="https://kit.fontawesome.com/73923889d5.js" crossorigin="anonymous"></script>
+    <script src="guest.view.js"></script>
+    <title>Cursos</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html" class="return_index">
+                <i class="fas fa-cube fa-lg"></i>
+                <span>YouDevOps</span>
+            </a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar categorías...">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <div class="Title">
+            <h1>Cursos</h1>
+        </div>
+
+        <section id="coursesSection">
+<!--             <div id="course1" class="course">
+                <img src="../../images/portadaCursos/historiaProgramacion.png" alt="Historia de la programación">
+                <div class="information_course">
+                    <h3>Historia de la Programacion</h3>
+                    <p id="quantity_lesson">NUMERO DE LECCIONES: 1 <br>...<br></p>
+                    <p class="content">Conoce la historia de la programación y como ha evolucionado a lo largo de los años.</p>
+                </div>
+            </div> -->
+        </section>
+    </main>
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var courses = document.querySelectorAll(".course");
+        courses.forEach(function(course) {
+            course.addEventListener("click", function() {
+                var infoCourse = this.querySelector(".information_course");
+                infoCourse.classList.toggle("active");
+            });
+        });
+    });
+</script>
+
+</html>

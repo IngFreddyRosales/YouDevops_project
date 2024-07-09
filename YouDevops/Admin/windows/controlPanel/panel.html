@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/73923889d5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../controlPanel/panel_style.css">
+    <script src="panel.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../../../Usuario/windows/index.html" class="return_index">
+                <i class="fas fa-cube fa-lg"></i>
+                <span>YouDevOps</span>
+        </div>
+        <div class="usuario">
+            <a href="#"><button type="button" id="usuario" class="button">Usuario</button></a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <button class="toggle-button" id="toggle-button">&#9776;</button>
+            <div class="sidebar-content">
+                <h2>Administrador</h2>
+                <a href="../controlPanel/panel.html"><button type="button" class="button">Panel de Control</button></a>
+                <a href="../gestionCursos/gestionCursos.html"><button type="button" class="button">Gestion de Cursos</button></a>
+                <a href="../../../Usuario/windows/courses/courses.html"><button type="button" class="button" >Cursos</button></a>
+            </div>
+        </div>
+        <div class="main-content">
+            <h1 id="title_main_content">Panel de Control</h1>
+            <div class="stats">
+                <div class="stat">
+                    <h2>31</h2>
+                    <p>Usuarios</p>
+                </div>
+                <div class="stat">
+                    <h2>5</h2>
+                    <p>Cursos Disponibles</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('toggle-button').addEventListener('click', function () {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');
+        });
+
+    </script>
+
+</body>
+
+</html>

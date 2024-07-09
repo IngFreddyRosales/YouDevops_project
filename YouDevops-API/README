@@ -1,0 +1,31 @@
+/config: Archivos de configuración, como la configuración de la base de datos.
+
+/controllers: Controladores que contienen la lógica de las rutas.
+
+/models: Modelos que representan las tablas de la base de datos.
+
+/routes: Definiciones de rutas y sus correspondientes manejadores.
+
+/middlewares: Middlewares para procesamiento de solicitudes.
+
+/utils: Utilidades y funciones auxiliares.
+
+/public: Archivos estáticos como HTML, CSS y JavaScript.
+
+/views: Plantillas de vistas si usas un motor de plantillas como EJS.
+
+/tests: Archivos de prueba para tu aplicación.
+
+.env: Variables de entorno.
+
+.gitignore: Archivos y carpetas que Git debe ignorar.
+
+package.json y package-lock.json: Archivos de configuración de npm.
+
+index.js: Archivo principal de la aplicación.
+
+
+Tareas a realizar
+1. Hacer el metodo de agregar lecciones
+2. Ver las lecciones creadas y los videos mediantes las urls
+ 2.1 Debes obtener el id del curso en el que se encuentra la leccion

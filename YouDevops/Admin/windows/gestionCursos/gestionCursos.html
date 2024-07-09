@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/73923889d5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../gestionCursos/gestionCursos.css">
+    <script src="gestionCurso.js" defer></script>
+    <title>Gestion-Cursos</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#" class="return_index">
+                <i class="fas fa-cube fa-lg"></i>
+                <span>YouDevOps</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <button class="toggle-button" id="toggle-button">&#9776;</button>
+            <div class="sidebar-content">
+                <h2>Administrador</h2>
+                <a href="../controlPanel/panel.html"><button type="button" class="button">Panel de Control</button></a>
+                <a href="../gestionCursos/gestionCursos.html"><button type="button" class="button">Gestion de Cursos</button></a>
+                <a href="../../../Usuario/windows/courses/courses.html"><button type="button" class="button" >Cursos</button></a>
+
+            </div>
+        </div>
+
+        <div class="main-content">
+            <h1>Gestion de Cursos</h1>
+            <div class="available_courses">
+                <h2>Cursos Disponibles</h2>
+                <section id="courseList">
+                    
+                </section>
+            </div>
+            <div class="new_course">
+                <a href="#"><button type="button" class="button" id="toggleForm">Crear Curso</button></a>
+                <form class="form" id="courseForm">
+                    <label for="title1">Titulo</label>
+                    <input type="text" id="title_field" name="title1" required>
+                    <label for="description1">Descripcion</label>
+                    <textarea id="description" name="description1" required></textarea>
+                    <label for="image1">Imagen</label>
+                    <input type="file" id="image" name="image1" required>
+                    <label for="category">Categoria</label>
+                    <select name="category" id="category" required>
+                        <option value="1">Programacion</option>
+                        <option value="2">Diseño</option>
+                        <option value="3">Redes</option>
+                    </select>
+                    <button type="submit" class="button">Crear</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div>
+
+    </div>
+
+    <script>
+        document.getElementById('toggle-button').addEventListener('click', function () {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');
+        });
+
+    </script>
+
+    <script>
+        document.getElementById('toggleForm').addEventListener('click', function () {
+            var form = document.getElementById('courseForm');
+            if (form.style.display === "none" || form.style.display === "") {
+                form.style.display = "block";
+            } else {
+                form.style.display = "none";
+            }
+        });
+    </script>
+
+</body>
+
+</html>

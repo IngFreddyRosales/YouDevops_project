@@ -1,0 +1,268 @@
+/* General */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    max-width: 97.8%;
+    height: 60px;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.8em;
+    color: #f1c232;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo i {
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav .button {
+    background-color: #f1c232;
+    color: #fff;
+    padding: 8px 16px;
+    margin-left: 15px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+
+nav .button:hover {
+    background-color: #A68521;
+}
+
+.bar_button {
+    display: none;
+}
+
+/* Container Large */
+.container_large {
+    display: flex;
+    background-color: #333;
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.container_large img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.message {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    padding: 20px;
+    margin: 20px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.terminal {
+    background-color: #f1c232;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.paragraph_message {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.join-team {
+    margin-top: 20px;
+    color: #f1c232;
+    background-color: transparent;
+}
+
+.join-team .highlight a {
+    color: #f1c232;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #f1c232;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.join-team .highlight a:hover {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+/* Container Small */
+.container_small {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_item {
+    width: 63%;
+    height: 100px;
+    margin-top: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container_item i {
+    transition: transform 0.3s ease;
+}
+
+.container_item i:hover {
+    transform: scale(1.55);
+}
+
+/* Footer */
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 155px;
+}
+
+.copyright {
+    color: #ffffffdd;
+    margin-left: 50px;
+}
+
+.social_medias {
+    margin-right: 50px;
+}
+
+.social_medias a {
+    color: #f5f5f514;
+    margin-left: 15px;
+}
+
+.container_small{
+    margin-bottom: 100px;
+}
+
+.small_menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    right: 10px;
+}
+
+.small_menu a {
+    display: none;
+    padding: 5px;
+    background-color: #f1c232;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-align: center;
+    transition: 0.4s ease;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .small_menu {
+        display: block;
+    }
+
+    a.button{
+        width: 100px;
+        font-size: small;
+        text-align: center;
+    }
+
+    header {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        height: 100px;
+        padding: 20px;
+    }
+
+    .container_large {
+        width: 90%;
+        height: 300px;
+    }
+
+    .form_log_in{
+        padding: 0px;
+    }
+
+    .message {
+        font-size: 0.8em;
+    }
+
+    .terminal {
+        font-size: 0.8em;
+    }
+
+    .container_item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10px;
+        margin-left: 20%;
+    }
+
+    .container_item i {
+        font-size: 4.0em;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 200px;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .copyright {
+        margin-left: 0px;
+    }
+
+    .social_medias {
+        margin-right: 0px;
+    }
+}

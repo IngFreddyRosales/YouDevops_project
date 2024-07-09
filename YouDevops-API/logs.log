@@ -1,0 +1,1009 @@
+2024-06-24T06:11:20.778Z info: Aplicacion iniciada
+2024-06-24T06:13:58.574Z info: Aplicacion iniciada
+2024-06-24T06:13:58.577Z debug: Executing query: select * from usuario;
+2024-06-24T06:13:58.579Z debug: Executing query: SELECT * FROM usuario WHERE id = $1 with values: 1
+2024-06-24T06:16:06.210Z info: Aplicacion iniciada
+2024-06-24T06:16:30.551Z info: Aplicacion iniciada
+2024-06-24T06:18:07.219Z info: Aplicacion iniciada
+2024-06-24T06:18:26.299Z info: Aplicacion iniciada
+2024-06-24T06:21:27.904Z debug: Executing query: select * from usuario;
+2024-06-24T06:21:27.914Z debug: Executing query: SELECT * FROM usuario WHERE id = $1 with values: 1
+2024-06-24T06:21:27.918Z info: Usuarios:
+2024-06-24T06:21:27.918Z info: Usuario por ID:
+2024-06-24T06:22:36.321Z info: Aplicacion iniciada
+2024-06-24T06:22:41.861Z debug: Executing query: select * from usuario;
+2024-06-24T06:22:41.868Z debug: Executing query: SELECT * FROM usuario WHERE id = $1 with values: 1
+2024-06-24T06:24:40.031Z info: Aplicacion iniciada
+2024-06-24T06:24:46.436Z debug: Executing query: select * from usuario;
+2024-06-24T06:24:46.445Z error: Error al obtener usuarios: id is not defined
+2024-06-24T06:24:53.300Z debug: Executing query: select * from usuario;
+2024-06-24T06:24:53.303Z error: Error al obtener usuarios: id is not defined
+2024-06-24T06:25:49.460Z info: Aplicacion iniciada
+2024-06-24T06:25:51.256Z debug: Executing query: SELECT * FROM usuario WHERE id = $1 with values: 1
+2024-06-24T06:25:51.273Z debug: Executing query: select * from usuario;
+2024-06-24T06:25:51.276Z debug: Executing query: SELECT * FROM usuario WHERE id = $1 with values: [object Object]
+2024-06-24T06:25:51.290Z error: Error al obtener usuarios: la sintaxis de entrada no es válida para tipo integer: «{"id":1,"nombre":"Freddy","apellido":"Espinosa","correo":"Freddy@gmail.com","contrasenia":"freddy123"}»
+2024-06-24T06:26:20.927Z info: Aplicacion iniciada
+2024-06-24T06:26:26.464Z debug: Executing query: SELECT * FROM usuario WHERE id = $1 with values: 1
+2024-06-24T06:26:26.471Z debug: Executing query: select * from usuario;
+2024-06-24T06:26:26.474Z debug: Executing query: SELECT * FROM usuario WHERE id = $1 with values: [object Object]
+2024-06-24T06:26:26.480Z error: Error al obtener usuarios: la sintaxis de entrada no es válida para tipo integer: «{"id":1,"nombre":"Freddy","apellido":"Espinosa","correo":"Freddy@gmail.com","contrasenia":"freddy123"}»
+2024-06-24T06:26:48.937Z info: Aplicacion iniciada
+2024-06-24T06:26:54.373Z debug: Executing query: select * from usuario;
+2024-06-24T06:26:54.377Z debug: Executing query: SELECT * FROM usuario WHERE id = $1 with values: 2
+2024-06-24T07:16:41.056Z debug: Executing query: select * from usuario;
+2024-06-24T07:16:41.125Z debug: Executing query: SELECT * FROM usuario WHERE id = $1 with values: 2
+2024-06-24T07:27:37.254Z info: Aplicacion iniciada
+2024-06-24T08:15:19.622Z info: Aplicacion iniciada
+2024-06-24T08:29:20.590Z info: Aplicacion iniciada
+2024-06-24T08:34:31.711Z info: Aplicacion iniciada
+2024-06-24T08:37:31.034Z info: Aplicacion iniciada
+2024-06-24T08:39:41.028Z info: Aplicacion iniciada
+2024-06-24T08:39:47.998Z info: User with ID 9 created
+2024-06-24T08:51:38.184Z info: Aplicacion iniciada
+2024-06-24T09:01:04.125Z info: Aplicacion iniciada
+2024-06-24T09:06:01.703Z info: Aplicacion iniciada
+2024-06-24T09:06:59.541Z info: Aplicacion iniciada
+2024-06-24T09:07:45.617Z info: Aplicacion iniciada
+2024-06-24T09:14:39.417Z info: Aplicacion iniciada
+2024-06-24T09:16:53.933Z info: Aplicacion iniciada
+2024-06-24T09:19:35.580Z info: Aplicacion iniciada
+2024-06-24T09:22:10.083Z info: Aplicacion iniciada
+2024-06-24T09:23:41.720Z info: Aplicacion iniciada
+2024-06-24T09:24:19.497Z info: Aplicacion iniciada
+2024-06-24T09:24:52.892Z info: Aplicacion iniciada
+2024-06-24T09:25:46.425Z info: Aplicacion iniciada
+2024-06-24T09:30:06.908Z info: Aplicacion iniciada
+2024-06-24T09:36:42.195Z info: Aplicacion iniciada
+2024-06-24T09:37:27.135Z info: Aplicacion iniciada
+2024-06-24T09:37:50.995Z info: Aplicacion iniciada
+2024-06-24T09:38:23.031Z info: Aplicacion iniciada
+2024-06-24T09:41:18.546Z info: Aplicacion iniciada
+2024-06-24T09:42:12.262Z info: Aplicacion iniciada
+2024-06-24T09:43:31.329Z info: Aplicacion iniciada
+2024-06-24T09:44:30.662Z info: Aplicacion iniciada
+2024-06-24T09:46:04.555Z info: Aplicacion iniciada
+2024-06-24T09:48:51.181Z info: Aplicacion iniciada
+2024-06-24T09:55:13.252Z info: Aplicacion iniciada
+2024-06-24T10:13:07.315Z info: Aplicacion iniciada
+2024-06-24T10:13:56.776Z error: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-06-24T10:15:55.899Z info: Aplicacion iniciada
+2024-06-24T10:16:02.539Z error: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-06-24T10:19:40.515Z info: Aplicacion iniciada
+2024-06-24T10:19:46.078Z error: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-06-24T10:21:51.697Z info: Aplicacion iniciada
+2024-06-24T10:21:56.092Z error: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-06-24T10:22:56.849Z info: Aplicacion iniciada
+2024-06-24T10:23:00.650Z error: Query values must be an array
+2024-06-24T10:25:16.344Z info: Aplicacion iniciada
+2024-06-24T10:25:21.220Z error: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+2024-06-24T10:31:08.238Z info: Aplicacion iniciada
+2024-06-24T11:26:39.337Z info: Aplicacion iniciada
+2024-06-24T11:31:11.156Z info: Aplicacion iniciada
+2024-06-24T11:35:53.693Z info: Aplicacion iniciada
+2024-06-24T11:36:43.571Z info: Aplicacion iniciada
+2024-06-24T11:39:54.260Z info: Aplicacion iniciada
+2024-06-24T11:40:44.310Z info: Aplicacion iniciada
+2024-06-24T11:46:44.933Z debug: Executing query: select * from usuario;
+2024-06-24T11:46:58.375Z debug: Executing query: select * from usuario;
+2024-06-24T11:52:22.856Z info: Aplicacion iniciada
+2024-06-24T11:53:57.476Z info: Aplicacion iniciada
+2024-06-24T11:55:12.524Z info: User with ID 10 created
+2024-06-24T12:00:45.113Z info: Aplicacion iniciada
+2024-06-24T12:01:41.704Z info: Aplicacion iniciada
+2024-06-24T12:04:51.783Z info: Aplicacion iniciada
+2024-06-24T12:08:16.292Z info: Aplicacion iniciada
+2024-06-24T12:09:14.846Z info: Aplicacion iniciada
+2024-06-24T12:14:25.240Z info: Aplicacion iniciada
+2024-06-24T12:22:23.368Z info: Aplicacion iniciada
+2024-06-24T12:23:58.688Z info: Aplicacion iniciada
+2024-06-24T12:24:35.147Z info: Aplicacion iniciada
+2024-06-24T12:25:09.650Z info: Aplicacion iniciada
+2024-06-25T02:50:23.018Z info: Aplicacion iniciada
+2024-06-25T02:51:39.633Z info: Aplicacion iniciada
+2024-06-25T02:53:11.420Z info: User with ID 11 created
+2024-06-25T02:58:41.019Z info: Aplicacion iniciada
+2024-06-25T02:59:46.462Z info: User with ID 12 created
+2024-06-25T03:02:52.304Z info: Aplicacion iniciada
+2024-06-25T03:05:00.667Z info: Aplicacion iniciada
+2024-06-25T03:06:12.365Z info: Aplicacion iniciada
+2024-06-25T03:13:55.526Z info: Aplicacion iniciada
+2024-06-25T03:13:58.761Z info: Course with ID 2 created
+2024-06-25T03:18:20.181Z info: Course with ID 3 created
+2024-06-25T03:20:38.236Z info: Course with ID 4 created
+2024-06-26T11:01:59.107Z info: Aplicacion iniciada
+2024-06-26T11:18:35.349Z info: Aplicacion iniciada
+2024-06-26T11:21:55.114Z info: Aplicacion iniciada
+2024-06-26T11:29:18.640Z info: Aplicacion iniciada
+2024-06-26T11:31:22.967Z info: Aplicacion iniciada
+2024-06-26T11:31:31.724Z error: Error al obtener usuarios: getUsers is not defined
+2024-06-26T11:35:04.837Z info: Aplicacion iniciada
+2024-06-26T11:44:27.965Z info: Aplicacion iniciada
+2024-06-26T11:49:00.377Z info: Aplicacion iniciada
+2024-06-26T11:55:22.354Z info: Aplicacion iniciada
+2024-06-26T11:58:42.550Z info: User with email Luis logged in
+2024-06-26T12:04:46.188Z info: Aplicacion iniciada
+2024-06-26T12:11:23.119Z info: Aplicacion iniciada
+2024-06-26T21:31:24.491Z info: Aplicacion iniciada
+2024-06-26T22:50:45.611Z info: Aplicacion iniciada
+2024-06-26T22:55:27.554Z info: Aplicacion iniciada
+2024-06-26T22:56:36.639Z info: Aplicacion iniciada
+2024-06-26T22:56:48.622Z info: User with email Freddy logged in
+2024-06-26T22:57:39.925Z info: User with email Freddy logged in
+2024-06-26T22:58:34.298Z info: Aplicacion iniciada
+2024-06-26T22:58:50.697Z info: User with email Freddy logged in
+2024-06-26T22:59:52.329Z info: Aplicacion iniciada
+2024-06-26T23:00:17.484Z info: Aplicacion iniciada
+2024-06-27T04:50:05.516Z info: Aplicacion iniciada
+2024-06-27T04:50:10.556Z error: User with email freds not found
+2024-06-27T04:51:09.125Z error: User with email asdas not found
+2024-06-27T04:52:20.633Z error: User with email asdas not found
+2024-06-27T04:52:28.570Z info: User with email Luis logged in
+2024-06-27T04:52:48.092Z info: User with email Luis logged in
+2024-06-27T04:53:04.914Z info: User with email Luis logged in
+2024-06-27T04:54:05.638Z info: User with email Luis logged in
+2024-06-27T05:33:14.269Z info: Aplicacion iniciada
+2024-06-27T05:55:51.115Z info: User with ID 13 created
+2024-06-27T05:56:06.299Z info: User with ID 14 created
+2024-06-27T05:57:18.401Z info: Aplicacion iniciada
+2024-06-27T05:58:06.119Z info: User with ID 15 created
+2024-06-27T06:56:38.985Z info: User with email Luis logged in
+2024-06-27T10:58:50.996Z info: Aplicacion iniciada
+2024-06-27T11:01:18.772Z info: User with ID 16 created
+2024-06-27T11:05:28.235Z info: User with ID 17 created
+2024-06-27T11:09:31.253Z debug: Executing query: select * from usuario;
+2024-06-27T11:40:06.148Z info: Aplicacion iniciada
+2024-06-27T11:50:46.325Z info: Aplicacion iniciada
+2024-06-27T11:50:59.728Z info: Aplicacion iniciada
+2024-06-27T11:53:47.001Z info: Aplicacion iniciada
+2024-06-27T11:55:46.227Z info: Aplicacion iniciada
+2024-06-27T11:55:47.886Z info: Aplicacion iniciada
+2024-06-27T11:55:49.045Z info: Aplicacion iniciada
+2024-06-27T11:55:50.728Z info: Aplicacion iniciada
+2024-06-27T11:55:56.207Z info: Aplicacion iniciada
+2024-06-27T11:55:58.885Z info: Aplicacion iniciada
+2024-06-27T11:56:21.165Z info: Aplicacion iniciada
+2024-06-27T12:00:44.336Z info: Aplicacion iniciada
+2024-06-27T12:02:45.900Z info: Aplicacion iniciada
+2024-06-27T12:05:25.549Z info: Aplicacion iniciada
+2024-06-27T12:08:17.530Z info: User with email Freddy logged in
+2024-06-27T12:08:55.149Z info: Aplicacion iniciada
+2024-06-27T12:08:57.816Z info: User with email Freddy logged in
+2024-06-27T12:12:27.143Z info: Aplicacion iniciada
+2024-06-27T12:12:31.010Z info: Aplicacion iniciada
+2024-06-27T12:12:37.496Z info: Aplicacion iniciada
+2024-06-27T12:12:52.113Z info: Admin with email Freddy logged in
+2024-06-27T12:18:48.841Z info: Aplicacion iniciada
+2024-06-27T12:25:38.105Z info: Admin with email Freddy logged in
+2024-06-29T08:19:53.693Z info: Aplicacion iniciada
+2024-06-29T08:20:44.678Z info: User with ID 18 created
+2024-06-29T08:21:15.133Z error: User with email alexandro not found
+2024-06-29T08:22:11.581Z info: User with email Alexandro logged in
+2024-06-29T08:23:09.155Z info: User with email Alexandro logged in
+2024-06-29T09:07:16.508Z info: Aplicacion iniciada
+2024-06-29T09:07:20.729Z info: Aplicacion iniciada
+2024-06-29T09:12:30.351Z info: Aplicacion iniciada
+2024-06-29T09:15:06.361Z debug: Executing query: select * from usuario;
+2024-06-29T09:25:56.576Z info: User with email Freddy logged in
+2024-06-29T09:41:50.809Z info: Admin with email Freddy logged in
+2024-06-29T09:43:31.609Z info: Admin with email Freddy logged in
+2024-06-29T09:46:02.016Z info: User with email Luciana logged in
+2024-06-29T09:48:08.129Z info: Admin with email Freddy logged in
+2024-06-29T09:52:12.884Z debug: Executing query: select * from usuario;
+2024-06-29T09:52:13.628Z debug: Executing query: select * from usuario;
+2024-06-29T09:52:14.175Z debug: Executing query: select * from usuario;
+2024-06-29T09:52:14.368Z debug: Executing query: select * from usuario;
+2024-06-29T09:52:14.573Z debug: Executing query: select * from usuario;
+2024-06-29T09:53:40.269Z debug: Executing query: select * from usuario;
+2024-06-29T10:08:53.051Z debug: Executing query: select * from usuario;
+2024-06-29T10:09:41.603Z info: Admin with email Alfredo logged in
+2024-06-29T10:09:44.952Z debug: Executing query: select * from usuario;
+2024-06-29T10:10:29.227Z info: User with email Luis logged in
+2024-06-29T10:10:31.732Z debug: Executing query: select * from usuario;
+2024-06-29T10:10:38.436Z debug: Executing query: select * from usuario;
+2024-06-29T10:13:22.129Z info: Admin with email Freddy logged in
+2024-06-29T10:13:24.301Z debug: Executing query: select * from usuario;
+2024-06-29T10:21:43.398Z info: Admin with email Freddy logged in
+2024-06-29T10:22:54.208Z info: User with email Freddy logged in
+2024-06-29T10:23:22.755Z info: Admin with email Freddy logged in
+2024-06-29T10:26:36.936Z info: Admin with email Freddy logged in
+2024-06-29T10:26:38.629Z debug: Executing query: select * from usuario;
+2024-06-29T10:26:39.663Z debug: Executing query: select * from usuario;
+2024-06-29T10:26:40.113Z debug: Executing query: select * from usuario;
+2024-06-29T10:26:40.558Z debug: Executing query: select * from usuario;
+2024-06-29T10:26:48.323Z debug: Executing query: select * from usuario;
+2024-06-29T10:26:49.724Z debug: Executing query: select * from usuario;
+2024-06-29T10:26:49.957Z debug: Executing query: select * from usuario;
+2024-06-29T10:26:50.156Z debug: Executing query: select * from usuario;
+2024-06-29T10:26:50.335Z debug: Executing query: select * from usuario;
+2024-06-29T10:26:50.532Z debug: Executing query: select * from usuario;
+2024-06-29T10:26:50.723Z debug: Executing query: select * from usuario;
+2024-06-29T10:29:38.497Z info: Admin with email Freddy logged in
+2024-06-29T10:29:40.166Z debug: Executing query: select * from usuario;
+2024-06-29T10:29:57.721Z info: User with email Freddy logged in
+2024-06-29T10:29:59.501Z debug: Executing query: select * from usuario;
+2024-06-29T10:32:09.705Z error: User with email Alfredo not found
+2024-06-29T10:32:36.928Z info: Admin with email Alfredo logged in
+2024-06-29T10:32:38.733Z debug: Executing query: select * from usuario;
+2024-06-29T10:34:59.714Z info: Admin with email Alfredo logged in
+2024-06-29T10:35:01.476Z debug: Executing query: select * from usuario;
+2024-06-29T10:35:31.986Z info: Admin with email Alfredo logged in
+2024-06-29T10:35:33.937Z debug: Executing query: select * from usuario;
+2024-06-29T10:36:51.182Z info: Admin with email Alfredo logged in
+2024-06-29T10:37:53.155Z info: Admin with email Alfredo logged in
+2024-06-29T10:37:54.295Z debug: Executing query: select * from usuario;
+2024-06-29T10:38:55.426Z info: User with email Luciana logged in
+2024-06-29T10:38:59.064Z debug: Executing query: select * from usuario;
+2024-06-29T10:39:11.156Z error: User with email Alfredo not found
+2024-06-29T10:39:21.908Z error: User with email Alfredo not found
+2024-06-29T10:39:41.457Z info: Admin with email Alfredo logged in
+2024-06-29T10:39:42.668Z debug: Executing query: select * from usuario;
+2024-06-30T23:19:51.029Z info: Aplicacion iniciada
+2024-06-30T23:19:55.554Z info: Admin with email Freddy logged in
+2024-06-30T23:19:57.762Z debug: Executing query: select * from usuario;
+2024-07-01T00:00:27.948Z error: User with email Freddy not found
+2024-07-01T00:00:29.986Z error: User with email Freddy not found
+2024-07-01T00:00:33.224Z error: User with email Freddy not found
+2024-07-01T00:00:33.615Z error: User with email Freddy not found
+2024-07-01T00:00:33.831Z error: User with email Freddy not found
+2024-07-01T00:00:34.056Z error: User with email Freddy not found
+2024-07-01T00:00:49.356Z error: User with email Freddy not found
+2024-07-01T00:01:06.965Z info: Admin with email Freddy logged in
+2024-07-01T00:01:20.063Z debug: Executing query: select * from usuario;
+2024-07-01T00:06:03.942Z debug: Executing query: select * from usuario;
+2024-07-01T00:08:36.754Z debug: Executing query: select * from usuario;
+2024-07-01T00:18:16.564Z debug: Executing query: select * from usuario;
+2024-07-01T00:18:32.157Z debug: Executing query: select * from usuario;
+2024-07-01T00:24:49.201Z debug: Executing query: select * from usuario;
+2024-07-01T01:50:45.522Z debug: Executing query: select * from usuario;
+2024-07-01T03:27:30.030Z info: Aplicacion iniciada
+2024-07-01T03:27:31.638Z info: Aplicacion iniciada
+2024-07-01T03:27:34.796Z info: Aplicacion iniciada
+2024-07-01T03:27:35.770Z info: Aplicacion iniciada
+2024-07-01T03:27:37.162Z info: Aplicacion iniciada
+2024-07-01T03:27:38.735Z info: Aplicacion iniciada
+2024-07-01T03:27:40.812Z info: Aplicacion iniciada
+2024-07-01T03:27:43.597Z info: Aplicacion iniciada
+2024-07-01T03:28:36.601Z info: Aplicacion iniciada
+2024-07-01T03:32:31.254Z info: Aplicacion iniciada
+2024-07-01T03:33:11.258Z info: Aplicacion iniciada
+2024-07-01T03:34:15.847Z info: Aplicacion iniciada
+2024-07-01T03:35:55.227Z info: Aplicacion iniciada
+2024-07-01T03:38:58.835Z info: Aplicacion iniciada
+2024-07-01T03:39:15.419Z info: Aplicacion iniciada
+2024-07-01T03:44:08.081Z info: Aplicacion iniciada
+2024-07-01T03:44:11.217Z info: Course with ID 6 created
+2024-07-01T04:06:45.547Z info: Aplicacion iniciada
+2024-07-01T04:08:03.466Z info: Aplicacion iniciada
+2024-07-01T04:09:58.721Z info: Aplicacion iniciada
+2024-07-01T04:11:47.001Z info: Aplicacion iniciada
+2024-07-01T04:29:28.957Z info: Course with ID 7 created
+2024-07-01T05:19:36.536Z info: Course with ID 8 created
+2024-07-01T05:24:28.562Z info: Course with ID 9 created
+2024-07-01T05:28:17.651Z info: Course with ID 10 created
+2024-07-01T05:28:54.965Z info: Course with ID 11 created
+2024-07-01T05:30:44.822Z info: Course with ID 12 created
+2024-07-01T06:14:31.905Z info: Course with ID 13 created
+2024-07-01T06:18:55.203Z info: Course with ID 14 created
+2024-07-01T06:23:51.714Z info: Course with ID 15 created
+2024-07-01T06:25:11.380Z info: Course with ID 16 created
+2024-07-01T06:25:41.935Z info: Course with ID 17 created
+2024-07-01T06:28:11.295Z info: Aplicacion iniciada
+2024-07-01T06:30:55.338Z info: Aplicacion iniciada
+2024-07-01T06:40:48.961Z info: Aplicacion iniciada
+2024-07-01T06:40:52.978Z info: Course with ID 18 created
+2024-07-01T06:43:12.458Z info: Course with ID 19 created
+2024-07-01T06:54:58.595Z info: Aplicacion iniciada
+2024-07-01T07:00:18.489Z info: Aplicacion iniciada
+2024-07-01T07:03:00.620Z info: Aplicacion iniciada
+2024-07-01T07:03:07.695Z info: Aplicacion iniciada
+2024-07-01T07:06:05.174Z info: Aplicacion iniciada
+2024-07-01T07:08:59.699Z info: Aplicacion iniciada
+2024-07-01T07:11:59.283Z info: Aplicacion iniciada
+2024-07-01T07:12:05.684Z info: Aplicacion iniciada
+2024-07-01T07:28:46.218Z info: Aplicacion iniciada
+2024-07-01T08:06:56.676Z info: Aplicacion iniciada
+2024-07-01T08:10:05.170Z info: Aplicacion iniciada
+2024-07-01T08:10:14.070Z info: Aplicacion iniciada
+2024-07-01T08:12:12.744Z info: Aplicacion iniciada
+2024-07-01T08:12:22.090Z info: Aplicacion iniciada
+2024-07-01T08:13:14.186Z info: Aplicacion iniciada
+2024-07-01T08:14:46.059Z info: Aplicacion iniciada
+2024-07-01T08:39:55.600Z info: Aplicacion iniciada
+2024-07-01T08:39:57.787Z info: Aplicacion iniciada
+2024-07-01T08:40:42.570Z info: Aplicacion iniciada
+2024-07-01T08:40:45.618Z info: Aplicacion iniciada
+2024-07-01T08:40:48.037Z info: Aplicacion iniciada
+2024-07-01T08:48:40.145Z info: Aplicacion iniciada
+2024-07-01T08:48:41.550Z info: Aplicacion iniciada
+2024-07-01T08:50:44.943Z info: Course with ID 22 created
+2024-07-01T08:51:54.651Z info: Course with ID 23 created
+2024-07-01T09:00:50.137Z info: Course with ID 24 created
+2024-07-01T09:01:27.215Z info: Course with ID 25 created
+2024-07-01T09:08:37.245Z info: Aplicacion iniciada
+2024-07-01T09:10:11.143Z info: Aplicacion iniciada
+2024-07-01T09:11:07.307Z info: Aplicacion iniciada
+2024-07-01T09:11:10.940Z info: Course with ID 26 created
+2024-07-01T09:11:30.744Z info: Course with ID 27 created
+2024-07-01T09:16:59.704Z info: Aplicacion iniciada
+2024-07-01T09:17:06.308Z info: Course with ID 28 created
+2024-07-01T09:17:33.057Z info: Course with ID 29 created
+2024-07-01T09:19:32.273Z info: Aplicacion iniciada
+2024-07-01T09:19:33.629Z info: Aplicacion iniciada
+2024-07-01T09:19:39.184Z info: Course with ID 30 created
+2024-07-01T09:22:15.544Z info: Aplicacion iniciada
+2024-07-01T09:22:20.437Z info: Course with ID 31 created
+2024-07-01T09:22:37.588Z info: Aplicacion iniciada
+2024-07-01T09:22:39.243Z info: Aplicacion iniciada
+2024-07-01T09:22:41.869Z info: Course with ID 32 created
+2024-07-01T09:29:25.669Z info: Course with ID 33 created
+2024-07-01T09:34:17.108Z info: Course with ID 34 created
+2024-07-01T09:55:20.608Z info: Aplicacion iniciada
+2024-07-01T09:56:52.563Z info: Aplicacion iniciada
+2024-07-01T10:08:12.530Z info: Aplicacion iniciada
+2024-07-01T10:08:14.137Z info: Aplicacion iniciada
+2024-07-01T10:08:18.937Z info: Aplicacion iniciada
+2024-07-01T10:10:28.304Z info: Aplicacion iniciada
+2024-07-01T10:13:52.000Z info: Aplicacion iniciada
+2024-07-01T10:19:59.264Z info: Aplicacion iniciada
+2024-07-01T10:20:02.331Z info: Aplicacion iniciada
+2024-07-01T10:23:27.385Z info: Aplicacion iniciada
+2024-07-01T10:24:02.021Z info: Aplicacion iniciada
+2024-07-01T10:25:28.918Z info: Aplicacion iniciada
+2024-07-01T10:33:04.549Z info: Aplicacion iniciada
+2024-07-01T10:34:14.585Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\uploads\image-1719830054575-241774596.png'
+2024-07-01T10:40:35.924Z info: Aplicacion iniciada
+2024-07-01T10:41:22.049Z info: Aplicacion iniciada
+2024-07-01T10:42:35.829Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\uploads\image-1719830555821-451503233.png'
+2024-07-01T10:50:53.258Z info: Aplicacion iniciada
+2024-07-01T10:51:00.240Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831060232-267657684.png'
+2024-07-01T10:54:14.947Z info: Aplicacion iniciada
+2024-07-01T10:54:18.099Z info: Aplicacion iniciada
+2024-07-01T10:54:22.655Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831262651-629129542.png'
+2024-07-01T10:55:06.075Z info: Aplicacion iniciada
+2024-07-01T10:55:13.431Z info: Aplicacion iniciada
+2024-07-01T10:55:16.916Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831316913-455823207.png'
+2024-07-01T10:59:16.852Z info: Aplicacion iniciada
+2024-07-01T10:59:21.796Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831561789-391163195.png'
+2024-07-01T10:59:40.113Z info: Aplicacion iniciada
+2024-07-01T10:59:42.137Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831582132-881699213.png'
+2024-07-01T11:00:02.505Z info: Aplicacion iniciada
+2024-07-01T11:00:03.715Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831603709-981737161.png'
+2024-07-01T11:01:26.645Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831686634-723893126.png'
+2024-07-01T11:02:19.476Z info: Aplicacion iniciada
+2024-07-01T11:02:50.324Z info: Aplicacion iniciada
+2024-07-01T11:03:17.545Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831797535-410488578.png'
+2024-07-01T11:05:03.405Z info: Aplicacion iniciada
+2024-07-01T11:05:08.709Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\public\imagenes\image-1719831908705-994507973.png'
+2024-07-01T11:14:01.779Z info: Aplicacion iniciada
+2024-07-01T11:14:08.435Z info: Aplicacion iniciada
+2024-07-01T11:14:36.803Z info: Aplicacion iniciada
+2024-07-01T11:15:46.180Z info: Aplicacion iniciada
+2024-07-01T11:15:48.145Z info: Aplicacion iniciada
+2024-07-01T11:15:59.797Z error: ENOENT: no such file or directory, open 'C:\Users\victus\ProyectoIngWeb\YouDevops-API\uploads\image-1719832559791-43158501.png'
+2024-07-01T11:19:52.571Z info: Aplicacion iniciada
+2024-07-01T11:26:07.409Z info: Aplicacion iniciada
+2024-07-01T11:39:00.615Z info: Aplicacion iniciada
+2024-07-01T11:39:04.044Z info: Aplicacion iniciada
+2024-07-01T11:39:07.570Z info: Aplicacion iniciada
+2024-07-01T11:46:03.610Z info: Aplicacion iniciada
+2024-07-01T11:46:27.732Z info: Aplicacion iniciada
+2024-07-01T11:47:23.775Z info: Aplicacion iniciada
+2024-07-01T11:50:56.043Z info: Aplicacion iniciada
+2024-07-01T11:57:35.663Z info: Admin with email Freddy logged in
+2024-07-02T07:47:06.502Z info: Aplicacion iniciada
+2024-07-02T07:47:13.710Z info: Aplicacion iniciada
+2024-07-02T07:47:49.408Z info: Aplicacion iniciada
+2024-07-02T07:51:30.267Z error: User with email Freddy not found
+2024-07-02T07:51:38.657Z info: Admin with email Freddy logged in
+2024-07-02T07:51:58.954Z info: Admin with email Freddy logged in
+2024-07-02T08:17:04.025Z debug: Executing query: select * from usuario;
+2024-07-02T08:17:19.566Z debug: Executing query: select * from usuario;
+2024-07-02T08:18:25.018Z info: Aplicacion iniciada
+2024-07-02T08:18:31.152Z error: The "path" argument must be of type string. Received undefined
+2024-07-02T08:19:11.558Z info: Aplicacion iniciada
+2024-07-02T08:19:40.707Z info: Aplicacion iniciada
+2024-07-02T08:20:34.757Z info: Aplicacion iniciada
+2024-07-02T08:20:49.096Z info: Aplicacion iniciada
+2024-07-02T08:23:00.053Z info: Aplicacion iniciada
+2024-07-02T08:24:58.696Z info: Aplicacion iniciada
+2024-07-02T08:26:53.962Z info: Aplicacion iniciada
+2024-07-02T08:30:52.417Z info: Aplicacion iniciada
+2024-07-02T08:42:42.057Z info: Aplicacion iniciada
+2024-07-02T08:44:32.320Z info: Aplicacion iniciada
+2024-07-02T08:44:47.875Z info: Aplicacion iniciada
+2024-07-02T08:45:11.790Z error: coursesWithImagesUrls is not defined
+2024-07-02T08:47:04.795Z info: Aplicacion iniciada
+2024-07-02T08:55:48.078Z info: Aplicacion iniciada
+2024-07-02T08:56:58.782Z info: Admin with email Freddy logged in
+2024-07-02T08:57:00.487Z debug: Executing query: select * from usuario;
+2024-07-02T09:01:28.021Z info: Aplicacion iniciada
+2024-07-02T09:01:30.105Z info: Aplicacion iniciada
+2024-07-02T09:01:54.554Z debug: Executing query: select * from usuario;
+2024-07-02T09:07:00.747Z error: User with email Freddy not found
+2024-07-02T09:07:08.891Z info: Admin with email Freddy logged in
+2024-07-02T09:07:10.718Z debug: Executing query: select * from usuario;
+2024-07-02T09:08:47.391Z debug: Executing query: select * from usuario;
+2024-07-02T09:08:51.785Z debug: Executing query: select * from usuario;
+2024-07-02T09:08:54.553Z debug: Executing query: select * from usuario;
+2024-07-02T09:09:16.975Z debug: Executing query: select * from usuario;
+2024-07-02T09:39:11.527Z debug: Executing query: select * from usuario;
+2024-07-02T09:59:43.913Z debug: Executing query: select * from usuario;
+2024-07-02T10:29:12.552Z info: Aplicacion iniciada
+2024-07-02T10:31:52.728Z info: Aplicacion iniciada
+2024-07-02T10:33:06.862Z info: Aplicacion iniciada
+2024-07-02T10:38:16.813Z info: Aplicacion iniciada
+2024-07-02T10:38:20.051Z info: Aplicacion iniciada
+2024-07-02T10:38:48.166Z info: Aplicacion iniciada
+2024-07-02T10:59:39.782Z debug: Executing query: select * from usuario;
+2024-07-03T01:58:59.262Z info: Aplicacion iniciada
+2024-07-03T01:59:18.187Z info: User with email Luis logged in
+2024-07-03T01:59:21.923Z debug: Executing query: select * from usuario;
+2024-07-03T01:59:27.834Z debug: Executing query: select * from usuario;
+2024-07-03T02:55:03.430Z info: Aplicacion iniciada
+2024-07-03T02:55:20.455Z error: Admin with email Freddy  not found
+2024-07-03T02:55:27.305Z error: Admin with email Freddy  not found
+2024-07-03T02:55:34.315Z error: Admin with email Freddy  not found
+2024-07-03T02:55:43.215Z error: Admin with email Freddy  not found
+2024-07-03T02:56:20.824Z info: Admin with email Freddy logged in
+2024-07-03T02:56:30.130Z debug: Executing query: select * from usuario;
+2024-07-03T02:56:59.158Z debug: Executing query: select * from usuario;
+2024-07-03T03:11:36.958Z debug: Executing query: select * from usuario;
+2024-07-03T03:12:34.029Z debug: Executing query: select * from usuario;
+2024-07-03T03:49:26.833Z info: Aplicacion iniciada
+2024-07-03T03:49:38.166Z info: Admin with email Freddy logged in
+2024-07-03T03:49:40.520Z debug: Executing query: select * from usuario;
+2024-07-03T05:29:42.612Z info: Aplicacion iniciada
+2024-07-03T05:32:47.353Z error: no existe la relación «lecciones»
+2024-07-03T05:33:11.009Z info: Aplicacion iniciada
+2024-07-03T05:33:13.106Z error: no existe la columna «cursos_id» en la relación «leccion»
+2024-07-03T05:33:40.166Z info: Aplicacion iniciada
+2024-07-03T05:33:51.518Z error: no existe la columna «cursos_id» en la relación «leccion»
+2024-07-03T05:34:07.839Z info: Aplicacion iniciada
+2024-07-03T05:34:11.759Z error: no existe la columna «urlvideo» en la relación «leccion»
+2024-07-03T05:37:22.123Z info: Aplicacion iniciada
+2024-07-03T05:37:24.103Z info: Lesson with ID 1 created
+2024-07-03T07:48:14.125Z info: Aplicacion iniciada
+2024-07-03T07:54:20.810Z info: Admin with email Freddy logged in
+2024-07-03T07:54:23.841Z debug: Executing query: select * from usuario;
+2024-07-03T07:55:02.080Z debug: Executing query: select * from usuario;
+2024-07-03T08:12:57.191Z info: Lesson with ID 2 created
+2024-07-03T08:23:37.411Z debug: Executing query: select * from usuario;
+2024-07-03T08:30:27.187Z debug: Executing query: select * from usuario;
+2024-07-03T08:39:06.641Z debug: Executing query: select * from usuario;
+2024-07-03T08:39:24.499Z debug: Executing query: select * from usuario;
+2024-07-03T08:39:27.503Z debug: Executing query: select * from usuario;
+2024-07-03T08:39:42.628Z debug: Executing query: select * from usuario;
+2024-07-03T08:50:56.701Z info: Admin with email Freddy logged in
+2024-07-03T08:51:11.442Z info: Admin with email Freddy logged in
+2024-07-03T08:51:12.873Z debug: Executing query: select * from usuario;
+2024-07-03T08:53:23.197Z debug: Executing query: select * from usuario;
+2024-07-03T08:56:49.891Z debug: Executing query: select * from usuario;
+2024-07-03T08:57:56.976Z debug: Executing query: select * from usuario;
+2024-07-03T08:58:14.644Z debug: Executing query: select * from usuario;
+2024-07-03T08:58:37.227Z debug: Executing query: select * from usuario;
+2024-07-03T09:01:38.365Z debug: Executing query: select * from usuario;
+2024-07-03T09:01:41.860Z debug: Executing query: select * from usuario;
+2024-07-03T09:01:59.841Z debug: Executing query: select * from usuario;
+2024-07-03T09:02:14.980Z debug: Executing query: select * from usuario;
+2024-07-03T09:02:39.766Z debug: Executing query: select * from usuario;
+2024-07-03T09:03:01.850Z debug: Executing query: select * from usuario;
+2024-07-03T09:03:09.282Z debug: Executing query: select * from usuario;
+2024-07-03T09:03:47.523Z debug: Executing query: select * from usuario;
+2024-07-03T09:03:49.959Z debug: Executing query: select * from usuario;
+2024-07-03T09:05:42.495Z debug: Executing query: select * from usuario;
+2024-07-03T09:06:10.793Z info: User with email Luis logged in
+2024-07-03T09:06:27.796Z info: Admin with email Freddy logged in
+2024-07-03T09:09:23.693Z debug: Executing query: select * from usuario;
+2024-07-03T09:09:28.151Z debug: Executing query: select * from usuario;
+2024-07-03T09:11:32.735Z debug: Executing query: select * from usuario;
+2024-07-03T09:11:44.249Z debug: Executing query: select * from usuario;
+2024-07-03T09:12:10.250Z debug: Executing query: select * from usuario;
+2024-07-03T09:12:17.188Z debug: Executing query: select * from usuario;
+2024-07-03T09:12:59.106Z debug: Executing query: select * from usuario;
+2024-07-03T09:13:41.670Z debug: Executing query: select * from usuario;
+2024-07-03T09:14:28.236Z debug: Executing query: select * from usuario;
+2024-07-03T09:14:53.949Z debug: Executing query: select * from usuario;
+2024-07-03T09:14:57.415Z debug: Executing query: select * from usuario;
+2024-07-03T09:15:09.733Z debug: Executing query: select * from usuario;
+2024-07-03T09:21:47.954Z debug: Executing query: select * from usuario;
+2024-07-03T09:23:37.585Z info: Aplicacion iniciada
+2024-07-03T09:24:26.266Z info: Aplicacion iniciada
+2024-07-03T09:24:42.335Z info: Aplicacion iniciada
+2024-07-03T09:25:11.190Z info: Aplicacion iniciada
+2024-07-03T09:28:23.791Z debug: Executing query: select * from usuario;
+2024-07-03T09:48:22.581Z debug: Executing query: select * from usuario;
+2024-07-03T09:48:44.914Z debug: Executing query: select * from usuario;
+2024-07-03T09:49:05.563Z debug: Executing query: select * from usuario;
+2024-07-03T09:51:34.928Z debug: Executing query: select * from usuario;
+2024-07-03T09:58:36.954Z info: Lesson with ID 3 created
+2024-07-03T09:59:32.530Z info: Lesson with ID 4 created
+2024-07-03T09:59:42.319Z info: Lesson with ID 5 created
+2024-07-03T10:00:35.603Z info: Lesson with ID 6 created
+2024-07-03T10:00:38.007Z info: Lesson with ID 7 created
+2024-07-03T10:01:16.526Z debug: Executing query: select * from usuario;
+2024-07-03T10:02:00.764Z debug: Executing query: select * from usuario;
+2024-07-03T10:02:09.554Z info: Lesson with ID 8 created
+2024-07-03T10:13:56.042Z debug: Executing query: select * from usuario;
+2024-07-03T10:28:49.221Z info: Aplicacion iniciada
+2024-07-03T10:29:09.019Z info: Aplicacion iniciada
+2024-07-03T10:56:12.867Z debug: Executing query: select * from usuario;
+2024-07-03T10:57:59.051Z info: User with email Luis logged in
+2024-07-03T10:58:01.142Z debug: Executing query: select * from usuario;
+2024-07-03T10:58:24.659Z info: Admin with email Freddy logged in
+2024-07-03T10:58:26.775Z debug: Executing query: select * from usuario;
+2024-07-03T11:02:03.572Z info: Admin with email Freddy logged in
+2024-07-03T11:02:05.654Z debug: Executing query: select * from usuario;
+2024-07-03T11:06:49.990Z debug: Executing query: select * from usuario;
+2024-07-03T11:21:48.670Z debug: Executing query: select * from usuario;
+2024-07-03T11:22:05.800Z debug: Executing query: select * from usuario;
+2024-07-03T11:22:31.408Z debug: Executing query: select * from usuario;
+2024-07-03T11:26:32.026Z debug: Executing query: select * from usuario;
+2024-07-03T11:26:34.915Z debug: Executing query: select * from usuario;
+2024-07-03T11:31:12.459Z info: Aplicacion iniciada
+2024-07-03T11:31:40.722Z info: Aplicacion iniciada
+2024-07-03T11:32:00.252Z info: Aplicacion iniciada
+2024-07-03T11:32:20.777Z info: Aplicacion iniciada
+2024-07-03T11:35:54.361Z debug: Executing query: select * from usuario;
+2024-07-03T11:35:57.532Z debug: Executing query: select * from usuario;
+2024-07-03T11:41:35.596Z debug: Executing query: select * from usuario;
+2024-07-03T11:41:39.292Z debug: Executing query: select * from usuario;
+2024-07-03T11:41:44.674Z debug: Executing query: select * from usuario;
+2024-07-03T11:41:47.676Z debug: Executing query: select * from usuario;
+2024-07-03T11:42:06.938Z debug: Executing query: select * from usuario;
+2024-07-03T11:43:20.062Z debug: Executing query: select * from usuario;
+2024-07-03T11:43:35.299Z info: Admin with email Freddy logged in
+2024-07-03T11:45:31.702Z info: Aplicacion iniciada
+2024-07-03T11:45:43.011Z info: Aplicacion iniciada
+2024-07-03T11:46:18.214Z info: Aplicacion iniciada
+2024-07-03T11:46:44.580Z info: Aplicacion iniciada
+2024-07-03T11:46:51.847Z info: Aplicacion iniciada
+2024-07-03T11:47:16.505Z debug: Executing query: select * from usuario;
+2024-07-03T11:53:13.888Z info: User with email Luis logged in
+2024-07-03T11:53:17.284Z debug: Executing query: select * from usuario;
+2024-07-03T11:54:20.043Z debug: Executing query: select * from usuario;
+2024-07-03T11:54:23.766Z debug: Executing query: select * from usuario;
+2024-07-03T11:56:03.001Z debug: Executing query: select * from usuario;
+2024-07-03T11:56:19.376Z debug: Executing query: select * from usuario;
+2024-07-03T11:57:11.759Z debug: Executing query: select * from usuario;
+2024-07-03T11:57:33.280Z info: User with email Luis logged in
+2024-07-03T11:57:39.220Z debug: Executing query: select * from usuario;
+2024-07-03T11:58:05.378Z error: Admin with email Freddy not found
+2024-07-03T11:58:11.319Z error: Admin with email Freddy not found
+2024-07-03T11:58:21.132Z error: Admin with email Freddy not found
+2024-07-03T11:58:55.988Z info: User with email Luis logged in
+2024-07-03T11:58:58.148Z debug: Executing query: select * from usuario;
+2024-07-03T12:00:10.222Z info: Admin with email Freddy logged in
+2024-07-03T12:00:11.924Z debug: Executing query: select * from usuario;
+2024-07-03T12:00:26.740Z info: User with email Luis logged in
+2024-07-03T12:00:28.923Z debug: Executing query: select * from usuario;
+2024-07-03T12:01:14.253Z debug: Executing query: select * from usuario;
+2024-07-03T12:01:19.988Z debug: Executing query: select * from usuario;
+2024-07-03T12:02:04.568Z debug: Executing query: select * from usuario;
+2024-07-03T12:02:08.537Z debug: Executing query: select * from usuario;
+2024-07-03T12:02:20.046Z info: Admin with email Freddy logged in
+2024-07-03T12:02:22.059Z debug: Executing query: select * from usuario;
+2024-07-03T12:02:24.995Z debug: Executing query: select * from usuario;
+2024-07-03T12:02:44.051Z info: User with email Luis logged in
+2024-07-03T12:02:45.838Z debug: Executing query: select * from usuario;
+2024-07-03T12:02:49.393Z debug: Executing query: select * from usuario;
+2024-07-03T12:19:48.785Z debug: Executing query: select * from usuario;
+2024-07-03T12:30:13.933Z debug: Executing query: select * from usuario;
+2024-07-03T12:30:29.528Z debug: Executing query: select * from usuario;
+2024-07-03T12:31:29.949Z debug: Executing query: select * from usuario;
+2024-07-03T12:33:44.108Z info: Admin with email Freddy logged in
+2024-07-03T12:33:46.666Z debug: Executing query: select * from usuario;
+2024-07-03T21:21:22.229Z info: Aplicacion iniciada
+2024-07-03T21:22:31.717Z error: User with email Luis  not found
+2024-07-03T21:22:43.029Z error: User with email Luis  not found
+2024-07-03T21:23:29.646Z info: Admin with email Freddy logged in
+2024-07-03T21:23:31.346Z debug: Executing query: select * from usuario;
+2024-07-03T21:23:43.910Z debug: Executing query: select * from usuario;
+2024-07-03T21:23:54.100Z info: Lesson with ID 9 created
+2024-07-03T21:23:58.436Z info: Lesson with ID 10 created
+2024-07-03T21:25:07.965Z info: Lesson with ID 11 created
+2024-07-03T21:25:27.368Z debug: Executing query: select * from usuario;
+2024-07-03T21:27:03.179Z debug: Executing query: select * from usuario;
+2024-07-03T21:27:11.808Z info: Lesson with ID 12 created
+2024-07-03T21:28:30.370Z info: User with email Luis logged in
+2024-07-03T21:28:32.723Z debug: Executing query: select * from usuario;
+2024-07-03T21:28:40.559Z debug: Executing query: select * from usuario;
+2024-07-03T21:28:51.564Z debug: Executing query: select * from usuario;
+2024-07-03T21:28:54.098Z debug: Executing query: select * from usuario;
+2024-07-03T21:30:29.673Z debug: Executing query: select * from usuario;
+2024-07-03T22:43:48.750Z info: Admin with email Freddy logged in
+2024-07-03T22:44:00.029Z debug: Executing query: select * from usuario;
+2024-07-03T22:44:21.949Z info: Lesson with ID 13 created
+2024-07-03T22:44:49.655Z info: User with email Luis logged in
+2024-07-03T22:44:52.365Z debug: Executing query: select * from usuario;
+2024-07-03T22:46:03.420Z info: Admin with email Freddy logged in
+2024-07-03T22:46:06.281Z debug: Executing query: select * from usuario;
+2024-07-03T22:48:42.382Z info: Lesson with ID 14 created
+2024-07-03T22:49:03.579Z info: Lesson with ID 15 created
+2024-07-03T22:50:07.027Z debug: Executing query: select * from usuario;
+2024-07-03T22:57:23.982Z debug: Executing query: select * from usuario;
+2024-07-03T22:57:57.481Z debug: Executing query: select * from usuario;
+2024-07-03T22:58:41.682Z debug: Executing query: select * from usuario;
+2024-07-03T23:02:16.337Z info: User with email Luis logged in
+2024-07-03T23:02:18.874Z debug: Executing query: select * from usuario;
+2024-07-03T23:02:29.460Z info: Admin with email Freddy logged in
+2024-07-03T23:02:31.678Z debug: Executing query: select * from usuario;
+2024-07-03T23:10:05.338Z error: Admin with email Alfreddo not found
+2024-07-03T23:10:13.006Z info: Admin with email Alfredo logged in
+2024-07-03T23:10:17.676Z debug: Executing query: select * from usuario;
+2024-07-03T23:20:56.243Z info: Aplicacion iniciada
+2024-07-03T23:21:46.698Z info: Aplicacion iniciada
+2024-07-03T23:22:30.758Z info: Aplicacion iniciada
+2024-07-03T23:23:01.873Z info: Aplicacion iniciada
+2024-07-03T23:55:01.460Z info: User with email Luis logged in
+2024-07-03T23:55:04.584Z debug: Executing query: select * from usuario;
+2024-07-03T23:56:02.963Z info: User with email Luis logged in
+2024-07-03T23:56:04.984Z debug: Executing query: select * from usuario;
+2024-07-03T23:56:22.550Z info: Admin with email Freddy logged in
+2024-07-03T23:56:24.317Z debug: Executing query: select * from usuario;
+2024-07-03T23:57:40.601Z info: User with email Luis logged in
+2024-07-03T23:57:42.660Z debug: Executing query: select * from usuario;
+2024-07-03T23:57:58.674Z info: User with email Luis logged in
+2024-07-03T23:58:00.103Z debug: Executing query: select * from usuario;
+2024-07-03T23:58:24.813Z info: User with email Luis logged in
+2024-07-03T23:58:26.927Z debug: Executing query: select * from usuario;
+2024-07-03T23:58:52.545Z info: Admin with email Freddy logged in
+2024-07-03T23:58:54.252Z debug: Executing query: select * from usuario;
+2024-07-04T00:08:56.520Z info: Admin with email Freddy logged in
+2024-07-04T00:08:58.802Z debug: Executing query: select * from usuario;
+2024-07-04T00:30:01.932Z info: Aplicacion iniciada
+2024-07-04T00:30:54.091Z info: Aplicacion iniciada
+2024-07-04T00:30:58.973Z info: Aplicacion iniciada
+2024-07-04T00:31:32.472Z info: Aplicacion iniciada
+2024-07-04T00:34:12.796Z info: Aplicacion iniciada
+2024-07-04T00:34:23.107Z info: Aplicacion iniciada
+2024-07-04T00:35:56.648Z info: Aplicacion iniciada
+2024-07-04T00:36:10.675Z info: Aplicacion iniciada
+2024-07-04T00:36:38.410Z info: Aplicacion iniciada
+2024-07-04T00:36:43.407Z info: Aplicacion iniciada
+2024-07-04T00:38:45.293Z info: Aplicacion iniciada
+2024-07-04T00:54:47.542Z info: Admin with email Freddy logged in
+2024-07-04T00:54:49.912Z debug: Executing query: select * from usuario;
+2024-07-04T12:36:02.898Z info: Aplicacion iniciada
+2024-07-04T12:36:42.436Z info: User with email Luis logged in
+2024-07-04T12:36:45.315Z debug: Executing query: select * from usuario;
+2024-07-04T12:39:12.248Z info: Admin with email Freddy logged in
+2024-07-04T12:45:25.570Z info: User with ID 26 created
+2024-07-04T12:45:51.695Z info: User with ID 27 created
+2024-07-04T12:49:23.471Z info: Aplicacion iniciada
+2024-07-04T12:49:26.100Z info: Aplicacion iniciada
+2024-07-04T12:49:33.633Z debug: Executing query: select * from usuario;
+2024-07-04T12:50:01.353Z info: Admin with email Freddy logged in
+2024-07-04T12:50:04.018Z debug: Executing query: select * from usuario;
+2024-07-04T12:50:10.004Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T12:50:10.006Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T12:50:15.112Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T12:50:15.114Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T12:50:17.922Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T12:50:17.923Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T12:50:45.855Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T12:50:45.860Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T12:51:43.578Z info: Admin with email Freddy logged in
+2024-07-04T12:51:45.354Z debug: Executing query: select * from usuario;
+2024-07-04T12:54:29.913Z debug: Executing query: select * from usuario;
+2024-07-04T12:55:00.610Z debug: Executing query: select * from usuario;
+2024-07-04T12:55:37.832Z debug: Executing query: select * from usuario;
+2024-07-04T12:55:54.767Z debug: Executing query: select * from usuario;
+2024-07-04T12:58:32.027Z debug: Executing query: select * from usuario;
+2024-07-04T12:59:00.435Z info: Admin with email Freddy logged in
+2024-07-04T12:59:03.316Z debug: Executing query: select * from usuario;
+2024-07-04T12:59:22.028Z debug: Executing query: select * from usuario;
+2024-07-04T12:59:52.105Z info: Admin with email Freddy logged in
+2024-07-04T12:59:53.987Z debug: Executing query: select * from usuario;
+2024-07-04T13:00:29.024Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:00:29.040Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:01:14.913Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:01:14.919Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:01:21.364Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:01:21.366Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:01:33.960Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:01:33.961Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:01:36.810Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:01:36.812Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:01:47.999Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:01:48.000Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:01:50.507Z error: update o delete en «cursos» viola la llave foránea «leccion_curso_id_fkey» en la tabla «leccion»
+2024-07-04T13:01:50.507Z error: Cannot read properties of undefined (reading 'rowCount')
+2024-07-04T13:18:56.567Z debug: Executing query: select * from usuario;
+2024-07-04T13:19:34.315Z error: el valor es demasiado largo para el tipo character varying(100)
+2024-07-04T13:19:58.551Z error: el valor es demasiado largo para el tipo character varying(100)
+2024-07-04T13:20:31.379Z error: el valor es demasiado largo para el tipo character varying(100)
+2024-07-04T13:21:00.232Z error: el valor es demasiado largo para el tipo character varying(200)
+2024-07-04T13:21:15.241Z info: Lesson with ID 16 created
+2024-07-04T13:21:49.322Z info: Admin with email Freddy logged in
+2024-07-04T13:21:56.582Z debug: Executing query: select * from usuario;
+2024-07-04T13:22:50.377Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:05.188Z debug: Executing query: select * from usuario;
+2024-07-04T13:23:44.090Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:45.837Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:46.386Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:46.586Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:46.789Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:47.008Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:49.634Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:49.904Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:50.158Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:50.468Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:23:50.701Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:24:05.596Z debug: Executing query: select * from usuario;
+2024-07-04T13:24:43.030Z error: el valor es demasiado largo para el tipo character varying(120)
+2024-07-04T13:25:58.217Z debug: Executing query: select * from usuario;
+2024-07-04T13:26:05.418Z debug: Executing query: select * from usuario;
+2024-07-04T13:26:26.418Z debug: Executing query: select * from usuario;
+2024-07-04T13:27:01.929Z info: Lesson with ID 17 created
+2024-07-04T13:29:28.794Z debug: Executing query: select * from usuario;
+2024-07-04T13:30:48.870Z info: Lesson with ID 18 created
+2024-07-04T13:31:42.232Z info: Lesson with ID 19 created
+2024-07-04T13:31:55.603Z debug: Executing query: select * from usuario;
+2024-07-04T13:33:45.014Z debug: Executing query: select * from usuario;
+2024-07-04T13:34:36.562Z info: Lesson with ID 20 created
+2024-07-04T13:39:33.110Z debug: Executing query: select * from usuario;
+2024-07-04T13:41:01.085Z info: Lesson with ID 21 created
+2024-07-05T00:07:50.462Z info: Aplicacion iniciada
+2024-07-05T00:07:53.452Z info: User with ID 28 created
+2024-07-05T00:08:02.372Z debug: Executing query: select * from usuario;
+2024-07-05T00:13:04.969Z info: User with ID 29 created
+2024-07-05T00:13:25.286Z error: User with email Fernanda not found
+2024-07-05T00:14:22.978Z info: User with email Fernanda logged in
+2024-07-05T00:14:25.468Z debug: Executing query: select * from usuario;
+2024-07-05T00:14:31.689Z debug: Executing query: select * from usuario;
+2024-07-05T00:14:35.350Z debug: Executing query: select * from usuario;
+2024-07-05T00:14:41.842Z debug: Executing query: select * from usuario;
+2024-07-05T00:14:48.436Z debug: Executing query: select * from usuario;
+2024-07-05T00:14:58.135Z debug: Executing query: select * from usuario;
+2024-07-05T00:15:08.077Z debug: Executing query: select * from usuario;
+2024-07-05T00:15:31.816Z debug: Executing query: select * from usuario;
+2024-07-05T00:16:13.909Z error: User with email Freddy not found
+2024-07-05T00:16:23.465Z info: Admin with email Freddy logged in
+2024-07-05T00:16:28.543Z debug: Executing query: select * from usuario;
+2024-07-05T00:16:34.275Z debug: Executing query: select * from usuario;
+2024-07-05T00:16:49.610Z debug: Executing query: select * from usuario;
+2024-07-05T00:17:06.829Z info: User with email Fernanda logged in
+2024-07-05T00:17:09.318Z debug: Executing query: select * from usuario;
+2024-07-05T00:17:20.476Z debug: Executing query: select * from usuario;
+2024-07-05T00:17:33.466Z info: Admin with email Freddy logged in
+2024-07-05T00:17:35.658Z debug: Executing query: select * from usuario;
+2024-07-05T00:17:41.374Z debug: Executing query: select * from usuario;
+2024-07-05T00:18:27.664Z debug: Executing query: select * from usuario;
+2024-07-05T00:18:32.448Z debug: Executing query: select * from usuario;
+2024-07-05T00:18:52.939Z info: User with email Fernanda logged in
+2024-07-05T00:18:55.918Z debug: Executing query: select * from usuario;
+2024-07-05T00:19:21.771Z debug: Executing query: select * from usuario;
+2024-07-05T00:19:39.527Z info: Admin with email Freddy logged in
+2024-07-05T00:19:41.685Z debug: Executing query: select * from usuario;
+2024-07-05T00:19:50.030Z debug: Executing query: select * from usuario;
+2024-07-05T00:22:52.949Z info: User with email Luis logged in
+2024-07-05T00:22:54.641Z debug: Executing query: select * from usuario;
+2024-07-05T00:23:03.349Z debug: Executing query: select * from usuario;
+2024-07-05T00:23:05.851Z debug: Executing query: select * from usuario;
+2024-07-05T00:23:14.063Z debug: Executing query: select * from usuario;
+2024-07-05T00:23:28.321Z debug: Executing query: select * from usuario;
+2024-07-05T00:23:36.012Z debug: Executing query: select * from usuario;
+2024-07-05T00:23:41.972Z debug: Executing query: select * from usuario;
+2024-07-05T00:24:21.993Z debug: Executing query: select * from usuario;
+2024-07-05T00:25:17.622Z info: User with email Luis logged in
+2024-07-05T00:25:24.938Z debug: Executing query: select * from usuario;
+2024-07-05T00:25:33.907Z debug: Executing query: select * from usuario;
+2024-07-05T00:27:45.201Z debug: Executing query: select * from usuario;
+2024-07-05T00:27:55.453Z debug: Executing query: select * from usuario;
+2024-07-05T00:28:08.685Z debug: Executing query: select * from usuario;
+2024-07-05T00:28:39.015Z info: Admin with email Freddy logged in
+2024-07-05T00:28:41.063Z debug: Executing query: select * from usuario;
+2024-07-05T00:33:29.241Z debug: Executing query: select * from usuario;
+2024-07-05T00:33:35.131Z debug: Executing query: select * from usuario;
+2024-07-05T00:34:24.995Z info: Lesson with ID 22 created
+2024-07-05T00:40:13.329Z info: Lesson with ID 23 created
+2024-07-05T00:41:50.272Z info: User with email Luis logged in
+2024-07-05T00:42:03.304Z debug: Executing query: select * from usuario;
+2024-07-05T00:42:28.068Z info: User with email Luis logged in
+2024-07-05T00:42:30.086Z debug: Executing query: select * from usuario;
+2024-07-05T00:42:50.721Z debug: Executing query: select * from usuario;
+2024-07-05T03:23:01.903Z info: Aplicacion iniciada
+2024-07-05T03:24:21.401Z error: Admin with email Freddy  not found
+2024-07-05T03:24:26.280Z info: Admin with email Freddy logged in
+2024-07-05T03:24:32.495Z debug: Executing query: select * from usuario;
+2024-07-05T03:24:51.060Z info: User with email Luis logged in
+2024-07-05T03:24:53.546Z debug: Executing query: select * from usuario;
+2024-07-05T03:25:09.099Z info: Admin with email Freddy logged in
+2024-07-05T03:25:11.281Z debug: Executing query: select * from usuario;
+2024-07-05T04:15:46.229Z info: Admin with email Freddy logged in
+2024-07-05T04:16:01.105Z debug: Executing query: select * from usuario;
+2024-07-05T04:16:59.672Z debug: Executing query: select * from usuario;
+2024-07-05T04:17:13.944Z debug: Executing query: select * from usuario;
+2024-07-05T04:17:21.375Z debug: Executing query: select * from usuario;
+2024-07-05T04:17:27.711Z debug: Executing query: select * from usuario;
+2024-07-05T07:36:06.983Z info: Aplicacion iniciada
+2024-07-05T07:41:33.199Z info: Admin with email Freddy logged in
+2024-07-05T07:41:34.870Z debug: Executing query: select * from usuario;
+2024-07-05T07:47:50.648Z info: Aplicacion iniciada
+2024-07-05T07:48:04.814Z info: Aplicacion iniciada
+2024-07-05T07:57:12.240Z info: Aplicacion iniciada
+2024-07-05T08:00:33.184Z info: Aplicacion iniciada
+2024-07-05T08:04:33.387Z info: Aplicacion iniciada
+2024-07-05T08:04:54.678Z info: Aplicacion iniciada
+2024-07-05T08:05:21.888Z info: Aplicacion iniciada
+2024-07-05T08:11:10.840Z error: titulo is not defined
+2024-07-05T08:12:38.000Z info: Aplicacion iniciada
+2024-07-05T08:12:41.285Z error: titulo is not defined
+2024-07-05T08:13:11.623Z info: Aplicacion iniciada
+2024-07-05T08:13:14.533Z error: titulo is not defined
+2024-07-05T08:17:27.529Z info: Aplicacion iniciada
+2024-07-05T08:17:34.097Z error: Cannot read properties of undefined (reading 'rutaImagen')
+2024-07-05T08:18:33.232Z info: Aplicacion iniciada
+2024-07-05T08:19:30.351Z info: Aplicacion iniciada
+2024-07-05T08:20:49.117Z info: Aplicacion iniciada
+2024-07-05T08:21:33.376Z info: Aplicacion iniciada
+2024-07-05T08:23:46.374Z info: Aplicacion iniciada
+2024-07-05T08:24:00.533Z info: Aplicacion iniciada
+2024-07-05T08:25:04.593Z info: Aplicacion iniciada
+2024-07-05T08:25:54.494Z info: Aplicacion iniciada
+2024-07-05T08:26:23.604Z info: Aplicacion iniciada
+2024-07-05T08:27:23.974Z info: Aplicacion iniciada
+2024-07-05T08:27:28.698Z info: Aplicacion iniciada
+2024-07-05T08:28:04.566Z info: Aplicacion iniciada
+2024-07-05T08:29:22.757Z info: Aplicacion iniciada
+2024-07-05T08:32:59.364Z info: Aplicacion iniciada
+2024-07-05T08:33:05.618Z error: Cannot access 'updateCourse' before initialization
+2024-07-05T08:33:39.987Z info: Aplicacion iniciada
+2024-07-05T08:33:41.342Z error: Cannot access 'updateCourse' before initialization
+2024-07-05T08:34:01.825Z info: Aplicacion iniciada
+2024-07-05T08:34:28.086Z info: Aplicacion iniciada
+2024-07-05T10:11:38.065Z info: Aplicacion iniciada
+2024-07-05T10:12:53.205Z info: Aplicacion iniciada
+2024-07-05T10:13:26.687Z info: Aplicacion iniciada
+2024-07-05T10:15:20.604Z info: Aplicacion iniciada
+2024-07-05T10:16:21.624Z info: Aplicacion iniciada
+2024-07-05T10:17:59.868Z info: Aplicacion iniciada
+2024-07-05T10:20:46.623Z info: Aplicacion iniciada
+2024-07-05T10:21:35.903Z info: Aplicacion iniciada
+2024-07-05T10:21:51.982Z info: Aplicacion iniciada
+2024-07-05T10:23:53.500Z info: Aplicacion iniciada
+2024-07-05T10:26:46.324Z info: Aplicacion iniciada
+2024-07-05T10:29:10.903Z info: Aplicacion iniciada
+2024-07-05T10:31:01.904Z info: Aplicacion iniciada
+2024-07-05T10:31:41.920Z info: Aplicacion iniciada
+2024-07-05T10:33:46.040Z info: Aplicacion iniciada
+2024-07-05T10:34:09.878Z info: Aplicacion iniciada
+2024-07-05T10:35:51.857Z info: Aplicacion iniciada
+2024-07-05T10:36:02.650Z info: Aplicacion iniciada
+2024-07-05T10:48:12.923Z info: Aplicacion iniciada
+2024-07-05T10:48:33.249Z info: Aplicacion iniciada
+2024-07-05T10:54:39.249Z info: Aplicacion iniciada
+2024-07-05T10:55:43.671Z info: Aplicacion iniciada
+2024-07-05T10:57:05.168Z info: Aplicacion iniciada
+2024-07-05T11:01:08.399Z debug: Executing query: select * from usuario;
+2024-07-05T11:06:06.141Z info: Aplicacion iniciada
+2024-07-05T11:06:51.224Z info: Aplicacion iniciada
+2024-07-05T11:11:46.367Z info: Aplicacion iniciada
+2024-07-05T11:14:07.567Z info: Aplicacion iniciada
+2024-07-05T11:23:20.154Z debug: Executing query: select * from usuario;
+2024-07-05T11:23:58.602Z debug: Executing query: select * from usuario;
+2024-07-05T11:25:16.253Z info: Lesson with ID 24 created
+2024-07-05T11:26:47.059Z info: Lesson with ID 25 created
+2024-07-05T11:33:19.607Z debug: Executing query: select * from usuario;
+2024-07-05T11:33:48.632Z debug: Executing query: select * from usuario;
+2024-07-05T11:34:33.425Z debug: Executing query: select * from usuario;
+2024-07-05T11:34:50.585Z debug: Executing query: select * from usuario;
+2024-07-05T11:38:53.849Z debug: Executing query: select * from usuario;
+2024-07-05T11:42:30.698Z error: User with email Freddy not found
+2024-07-05T11:42:46.942Z error: User with email Freddy not found
+2024-07-05T11:42:57.140Z error: User with email Freddy not found
+2024-07-05T11:43:08.488Z info: User with email Luis logged in
+2024-07-05T11:43:30.554Z info: Admin with email Freddy logged in
+2024-07-05T11:43:32.154Z debug: Executing query: select * from usuario;
+2024-07-05T11:44:35.762Z info: User with email Luis logged in
+2024-07-05T11:44:48.588Z info: Admin with email Freddy logged in
+2024-07-05T11:44:50.678Z debug: Executing query: select * from usuario;
+2024-07-05T11:46:10.733Z info: User with email Luis logged in
+2024-07-05T11:46:25.714Z info: Admin with email Freddy logged in
+2024-07-05T11:46:28.147Z debug: Executing query: select * from usuario;
+2024-07-05T11:46:42.003Z error: Admin with email Luis not found
+2024-07-05T11:47:37.741Z info: User with email Luis logged in
+2024-07-05T21:16:20.656Z info: Aplicacion iniciada
+2024-07-05T21:31:08.644Z info: Admin with email Freddy logged in
+2024-07-05T21:31:22.373Z debug: Executing query: select * from usuario;
+2024-07-05T21:32:03.673Z info: Admin with email Freddy logged in
+2024-07-05T21:32:09.262Z debug: Executing query: select * from usuario;
+2024-07-05T22:17:39.035Z info: Aplicacion iniciada
+2024-07-05T22:23:28.515Z info: Aplicacion iniciada
+2024-07-05T22:24:15.426Z info: Aplicacion iniciada
+2024-07-05T22:25:11.343Z info: Aplicacion iniciada
+2024-07-05T22:25:28.552Z info: Aplicacion iniciada
+2024-07-05T22:27:36.142Z info: Aplicacion iniciada
+2024-07-05T22:28:24.884Z info: Aplicacion iniciada
+2024-07-05T22:28:41.217Z info: Aplicacion iniciada
+2024-07-05T22:29:37.678Z info: Aplicacion iniciada
+2024-07-05T22:29:52.128Z info: Aplicacion iniciada
+2024-07-05T22:31:12.890Z info: Aplicacion iniciada
+2024-07-05T22:32:12.123Z info: Aplicacion iniciada
+2024-07-05T22:35:07.959Z info: Aplicacion iniciada
+2024-07-05T22:46:00.829Z info: Aplicacion iniciada
+2024-07-05T22:50:30.471Z info: Aplicacion iniciada
+2024-07-05T22:50:34.935Z info: Aplicacion iniciada
+2024-07-05T22:52:25.966Z info: Aplicacion iniciada
+2024-07-05T22:53:54.736Z info: Aplicacion iniciada
+2024-07-05T22:56:42.981Z info: Aplicacion iniciada
+2024-07-05T22:57:54.479Z info: Aplicacion iniciada
+2024-07-05T22:58:52.622Z info: Aplicacion iniciada
+2024-07-05T23:00:39.471Z info: Aplicacion iniciada
+2024-07-05T23:01:15.777Z info: Aplicacion iniciada
+2024-07-05T23:02:06.199Z info: Aplicacion iniciada
+2024-07-05T23:02:55.286Z info: Admin with email Freddy logged in
+2024-07-05T23:03:28.825Z info: Admin with email Freddy logged in
+2024-07-05T23:03:40.056Z debug: Executing query: select * from usuario;
+2024-07-05T23:04:09.955Z error: User with email Freddy not found
+2024-07-05T23:04:21.146Z info: Admin with email Freddy logged in
+2024-07-05T23:04:24.258Z debug: Executing query: select * from usuario;
+2024-07-05T23:05:14.025Z info: Admin with email Freddy logged in
+2024-07-05T23:05:16.352Z debug: Executing query: select * from usuario;
+2024-07-05T23:05:55.889Z debug: Executing query: select * from usuario;
+2024-07-06T00:19:19.730Z debug: Executing query: select * from usuario;
+2024-07-06T00:23:14.236Z debug: Executing query: select * from usuario;
+2024-07-06T00:24:36.636Z info: Lesson with ID 26 created
+2024-07-06T00:27:47.311Z debug: Executing query: select * from usuario;
+2024-07-06T00:28:04.029Z debug: Executing query: select * from usuario;
+2024-07-06T00:31:44.839Z debug: Executing query: select * from usuario;
+2024-07-06T00:34:25.534Z error: el valor es demasiado largo para el tipo character varying(50)
+2024-07-06T00:34:48.108Z error: el valor es demasiado largo para el tipo character varying(50)
+2024-07-06T00:35:45.329Z info: Lesson with ID 27 created
+2024-07-06T00:43:31.244Z info: Lesson with ID 28 created
+2024-07-06T00:44:36.769Z info: Lesson with ID 29 created
+2024-07-06T00:47:08.247Z info: Lesson with ID 30 created
+2024-07-06T00:48:19.600Z info: Lesson with ID 31 created
+2024-07-06T00:53:52.872Z info: Lesson with ID 32 created
+2024-07-06T00:55:35.542Z debug: Executing query: select * from usuario;
+2024-07-06T00:55:46.331Z debug: Executing query: select * from usuario;
+2024-07-06T00:56:16.425Z debug: Executing query: select * from usuario;
+2024-07-06T00:57:29.120Z info: Lesson with ID 33 created
+2024-07-06T00:58:33.405Z info: Lesson with ID 34 created
+2024-07-06T01:03:04.236Z info: Lesson with ID 35 created
+2024-07-06T01:03:12.044Z debug: Executing query: select * from usuario;
+2024-07-06T01:03:25.548Z debug: Executing query: select * from usuario;
+2024-07-06T01:04:46.862Z info: Lesson with ID 36 created
+2024-07-06T01:06:08.287Z info: Lesson with ID 37 created
+2024-07-06T01:09:28.060Z info: Admin with email Freddy logged in
+2024-07-06T01:09:33.616Z debug: Executing query: select * from usuario;
+2024-07-06T01:18:40.837Z debug: Executing query: select * from usuario;
+2024-07-06T04:06:48.216Z info: Aplicacion iniciada
+2024-07-06T04:14:32.825Z info: User with ID 30 created
+2024-07-06T04:14:44.423Z error: User with email  not found
+2024-07-06T04:14:56.309Z error: User with email dsfsdfs not found
+2024-07-06T04:15:10.674Z info: User with email Jose logged in
+2024-07-06T04:17:38.754Z error: User with email luis not found
+2024-07-06T04:18:02.290Z error: User with email Jose not found
+2024-07-06T04:19:00.214Z error: User with email Jose not found
+2024-07-06T04:19:15.711Z info: User with email Luis logged in
+2024-07-06T04:20:02.338Z debug: Executing query: select * from usuario;
+2024-07-06T04:21:36.662Z info: Admin with email Freddy logged in
+2024-07-06T04:21:49.355Z debug: Executing query: select * from usuario;
+2024-07-06T04:22:41.664Z debug: Executing query: select * from usuario;
+2024-07-06T04:23:11.537Z info: Lesson with ID 38 created
+2024-07-06T04:23:52.516Z info: Lesson with ID 39 created
+2024-07-06T04:25:21.171Z info: Lesson with ID 40 created
+2024-07-06T04:29:46.898Z debug: Executing query: select * from usuario;
+2024-07-09T09:01:58.810Z info: Aplicacion iniciada
+2024-07-09T09:03:12.682Z info: Aplicacion iniciada
+2024-07-09T09:03:16.151Z info: User with email Luis logged in
+2024-07-09T09:03:29.034Z debug: Executing query: select * from usuario;
+2024-07-09T09:03:48.899Z info: Admin with email Freddy logged in
+2024-07-09T09:03:51.512Z debug: Executing query: select * from usuario;

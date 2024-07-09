@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/73923889d5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../lessonEdition/lessonEdition.css">
+    <script src="lessonEdition.js" defer></script>
+    <title>Introduccion Programacion</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../../../Usuario/windows/index.html" class="return_index">
+                <i class="fas fa-cube fa-lg"></i>
+                <span>YouDevOps</span>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="sidebar" id="sidebar">
+            <button class="toggle-button" id="toggle-button">&#9776;</button>
+            <div class="sidebar-content">
+                <h2>Administrador</h2>
+                <a href="../controlPanel/panel.html"><button type="button" class="button">Panel de Control</button></a>
+                <a href="../gestionCursos/gestionCursos.html"><button type="button" class="button">Gestion de Cursos</button></a>
+                <a href="../../../Usuario/windows/courses/courses.html"><button type="button" class="button" >Cursos</button></a>
+                
+            </div>
+        </div>
+        
+        <div class="title">
+            <h1>Lecciones</h1>
+        </div>
+
+        <section id="lessonsSection">
+
+
+<!--             <div class="lesson_description">
+                <a class="title_button" href="../../windows/content/conten1.html">Historia de la Programacion</a>
+                <p> En nuestro curso de Historia de la Programación, aprenderás sobre los hitos clave, los lenguajes
+                    revolucionarios y las mentes brillantes que transformaron la tecnología. Con relatos fascinantes y
+                    análisis profundos, comprenderás cómo se ha forjado el mundo digital. ¡Inscríbete ahora y conecta el
+                    pasado con tu futuro en la tecnología!.
+                </p>
+                <i id="delete" class="fa-solid fa-trash-can fa-lg" style="color: #ffd43b;"></i>
+                <a href="../lessonEdition/contentEdicion/contentEdition.html"><i id="edit" class="fa-solid fa-pen fa-lg" style="color: #ffd43b;"></i></a>
+            </div> -->
+        </section>
+        <div class="add-button-container">
+            <a href="../createLesson/createLesson.html" class="add-button">
+                <i class="fas fa-plus"></i>
+            </a>
+        </div>
+    </main>
+    <script>
+        document.getElementById('toggle-button').addEventListener('click', function () {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');
+        });
+
+    </script>
+
+</body>
+
+</html>
